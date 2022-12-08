@@ -1,0 +1,65 @@
+.clientReview {
+    min-height: 100vh;
+}
+
+.clientReview .Heading {
+    font-family: 'Roboto';
+    line-height: 40px;
+    letter-spacing: 0.2em;
+    color: #000000;
+    padding-left: 10rem;
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+    font-size: 1.6rem;
+    font-weight: 600;
+    text-align: start;
+}
+
+.client_review_grid {
+    padding-left: 10rem;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 20px;
+}
+
+.review_container {
+    width: 300px;
+    padding: 20px;
+    background-color: var(--black);
+    color: var(--white);
+}
+
+.review_container p {
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.client_image {
+    display: flex;
+
+}
+
+.client_image .client_name {
+    margin-left: 10px;
+}
+
+.client_image .client_name .star_icons {
+    font-size: 10px;
+    color: var(--yellow);
+    margin-top: 0px;
+}
+
+.star_icons i {
+    margin-right: 3px;
+}
+
+.client_image img {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+}
+
+.client_name h3 {
+    font-size: 14px;
+    font-weight: 600;
+}

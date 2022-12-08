@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --yellow: #FAFF00;
+    --black: #000000;
+    --white: #faf0e6;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/*-----------Footer---------------*/
+.Footer {
+    background-color: var(--black);
+    color: var(--yellow);
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+}
+
+.Footer h4 {
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+}
+
+.Footer p {
+    font-size: 10px;
+    font-weight: 300;
+    text-align: end;
+}

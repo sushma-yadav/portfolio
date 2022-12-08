@@ -1,0 +1,108 @@
+.project_section {
+    background-color: var(--black);
+    min-height: 100vh;
+    padding-bottom: 5rem;
+    padding-right: 5rem;
+    padding-top: 5rem;
+    position: relative;
+}
+
+.project_section_heading h1 {
+    font-family: 'Roboto';
+    font-size: 109px;
+    font-weight: 300;
+    line-height: 133px;
+    letter-spacing: 0.2em;
+    text-align: left;
+    color: #FFFFFF;
+    padding-left: 10rem;
+}
+
+.all_projects_section {
+    max-width: 1300px;
+    background-color: #FFFFFF;
+    padding: 2rem 2rem 2rem 10rem;
+    color: #000000;
+}
+
+.project_section_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+
+.project_section_header p {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.project_section_header button {
+    color: #FFFFFF;
+    background-color: #000000;
+    padding: 10px 20px;
+}
+
+.project_section_content {
+    grid-gap: 20px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.project_section_content {
+    width: 100%;
+}
+
+.project {
+    aspect-ratio: 1/1;
+    overflow: hidden;
+}
+
+.project:hover {}
+
+.project_image {
+    height: 100%;
+    width: 100%;
+}
+
+.project_image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.project {
+    position: relative;
+}
+
+.project:hover {
+    background: rgba(250, 255, 0, 0.85);
+    padding: 30px;
+}
+
+.project_name .project_title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 133px;
+    letter-spacing: 0.2em;
+    text-decoration-line: underline;
+    color: #000000;
+}
+
+.project_name .project_description {
+    font-size: 16px;
+}
+
+.project_name button {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px 20px;
+    background-color: #000000;
+    color: #FFFFFF;
+}

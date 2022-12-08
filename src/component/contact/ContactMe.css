@@ -1,0 +1,101 @@
+.contactMe {
+    background-color: var(--yellow);
+    min-height: 100vh;
+    padding-bottom: 5rem;
+    padding-left: 10rem;
+    padding-top: 5rem;
+    position: relative;
+}
+
+.contactMe .Heading {
+    font-family: 'Roboto';
+    font-size: 109px;
+    font-weight: 300;
+    line-height: 133px;
+    letter-spacing: 0.2em;
+    text-align: left;
+    color: #000000;
+    padding-left: 10rem;
+}
+
+.contact_info {
+    aspect-ratio: 1/1;
+    width: 50%;
+
+}
+
+.form {
+    height: 100%;
+    padding: 4rem;
+}
+
+.contact_info_section {
+    background-color: #fff;
+    display: flex;
+    margin: 50px auto;
+    max-width: 1000px;
+    position: relative;
+
+}
+
+.contact_info {
+    background-color: var(--black);
+    color: var(--yellow);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 100%;
+    justify-content: center;
+    padding: 4rem;
+}
+
+.form form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.form form p {
+    color: var(--black);
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.form form input[type=text],
+.form form input[type=email] {
+    border: 1px solid var(--black);
+    font-size: 1.6rem;
+    height: 3rem;
+    margin-top: 0.5rem;
+    padding: 0 1rem;
+    width: 100%;
+}
+
+.form form .message {
+    border: 1px solid var(--black);
+    font-size: 1.6rem;
+    height: 9rem !important;
+    margin-top: 0.5rem;
+    padding: 0 1rem;
+    resize: none;
+    width: 100%;
+}
+
+.form .form-btn {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.form .form-btn button {
+    background-color: var(--black);
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 600;
+    margin-top: 0.5rem;
+    outline: none;
+    padding: 10px 20px;
+    transition: .2s ease-in;
+}
