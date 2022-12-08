@@ -10,7 +10,7 @@ export default function HeroBanner() {
                 <div className='content'>
                     <div className='content_left'>
                         <div className='iconBackground'>
-                            <Icons />
+                            {/* <Icons /> */}
                         </div>
                     </div>
                     <div className='content_right'>
