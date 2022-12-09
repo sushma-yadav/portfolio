@@ -1,31 +1,22 @@
 .about {
     min-height: 100vh;
     padding-left: 10rem;
-    background-color: #131313;
+    background-color: var(--black);
+    color: #FFFFFF;
 }
 
-.about_section_heading h1 {
+.about_section_content {
+    padding: 6rem;
+    color: var(--black);
+    background-color: var(--white);
+}
+
+.about_section h1 {
     font-family: Roboto;
     font-size: 109px;
     font-weight: 300;
     line-height: 133px;
     letter-spacing: 0.2em;
     text-align: left;
-    color: #FFFFFF;
+    color: var(--white);
 }
-
-.about_section_content {
-    background-color: #fff;
-    margin-top: 10px;
-    max-width: 1300px;
-    padding: 6rem;
-    color: #131313;
-}
-
-/* .about_section_content p {
-    font-size: 17px;
-    font-weight: 400;
-    line-height: 20px;
-    letter-spacing: 0.22em;
-    text-align: left;
-} */

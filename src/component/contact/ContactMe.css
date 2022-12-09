@@ -1,70 +1,43 @@
-.contactMe {
+.contact_section {
     background-color: var(--yellow);
     min-height: 100vh;
-    padding-bottom: 5rem;
     padding-left: 10rem;
-    padding-top: 5rem;
-    position: relative;
 }
 
-.contactMe .Heading {
-    font-family: 'Roboto';
+.contact_section_heading h1 {
+    font-family: Roboto;
     font-size: 109px;
     font-weight: 300;
     line-height: 133px;
     letter-spacing: 0.2em;
     text-align: left;
-    color: #000000;
-    padding-left: 10rem;
-}
-
-.contact_info {
-    aspect-ratio: 1/1;
-    width: 50%;
-
-}
-
-.form {
-    height: 100%;
-    padding: 4rem;
-}
-
-.contact_info_section {
-    background-color: #fff;
-    display: flex;
-    margin: 50px auto;
-    max-width: 1000px;
-    position: relative;
-
-}
-
-.contact_info {
-    background-color: var(--black);
-    color: var(--yellow);
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    height: 100%;
-    justify-content: center;
-    padding: 4rem;
-}
-
-.form form {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-
-}
-
-.form form p {
     color: var(--black);
-    font-size: 1.6rem;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 160px 100px 0;
+}
+
+.contact .contact_form {
+    background-color: var(--white);
+}
+
+.contact form {
+    padding: 4rem;
+    height: 100%;
+}
+
+.contact form p {
+    color: var(--black);
+    font-size: 1.2rem;
     font-weight: 600;
 }
 
-.form form input[type=text],
-.form form input[type=email] {
+.contact form input[type=text],
+.contact form input[type=email] {
     border: 1px solid var(--black);
     font-size: 1.6rem;
     height: 3rem;
@@ -73,29 +46,65 @@
     width: 100%;
 }
 
-.form form .message {
+.contact form textarea {
     border: 1px solid var(--black);
     font-size: 1.6rem;
-    height: 9rem !important;
+    height: 6rem;
     margin-top: 0.5rem;
     padding: 0 1rem;
-    resize: none;
     width: 100%;
 }
 
-.form .form-btn {
+.contact form .form_btn {
     display: flex;
-    justify-content: flex-end;
+    justify-content: end;
 }
 
-.form .form-btn button {
+.contact form .form_btn button {
     background-color: var(--black);
     border: none;
-    color: #fff;
+    color: var(--white);
     cursor: pointer;
     font-weight: 600;
     margin-top: 0.5rem;
     outline: none;
     padding: 10px 20px;
     transition: .2s ease-in;
+}
+
+.contact .contact_info {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 100%;
+    justify-content: center;
+    padding: 4rem;
+    transition: .3s ease-in;
+    background-color: var(--black);
+    color: var(--white);
+}
+
+.contact .contact_info .contact_info_wrapper {
+    text-align: left;
+    gap: 10px;
+}
+
+.contact .contact_info .contact_info_wrapper .contact_icon {
+    margin-bottom: 20px;
+}
+
+.contact .contact_info .contact_info_wrapper .contact_info_icon {
+    margin-top: 30px;
+}
+
+.contact .contact_info .contact_info_wrapper .contact_icon i {
+    margin-right: 10px;
+    color: var(--yellow);
+}
+
+.contact .contact_form,
+.contact .contact_info {
+    aspect-ratio: 1/1;
+    width: 50%;
 }
