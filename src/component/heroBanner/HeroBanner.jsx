@@ -14,7 +14,6 @@ export default function HeroBanner() {
                         </div>
                     </div>
                     <div className='content_right'>
-                        {/* <img src={heroImage} alt="" /> */}
                     </div>
                 </div>
             </div>
