@@ -1,33 +1,101 @@
-.hero {
+.home {
     min-height: 100vh;
-    background-color: #131313;
+    padding-left: 10rem;
+    background-color: var(--black);
+    color: var(--white);
 }
 
-.hero_section {
-    position: relative;
+.hero {
+    height: 100vh;
 }
 
-.hero_section .content {
+.hero .hero_banner {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.hero .hero_banner .hero_content_left {
+    align-items: center;
     display: flex;
     height: 100%;
-    padding-left: 10rem;
-}
-
-.content_left {
+    position: relative;
     width: 60%;
 }
 
-.content_right {
+.hero .hero_banner .hero_content_left .btns {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.hero .hero_banner .hero_content_left .btns button {
+    padding: 8px 16px;
+    background-color: var(--gray);
+    color: var(--yellow);
+    font-weight: 600;
+    font-size: 16px;
+    font-family: 'Poppins';
+    border: 1px solid var(--yellow);
+}
+
+.hero .hero_banner .hero_content_left .hero_banner_info {
+    margin-left: 4rem;
+}
+
+.hero .hero_banner .hero_content_left .hero_banner_info p:nth-child(1) {
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: var(--yellow);
+}
+
+.hero .hero_banner .hero_content_left .hero_banner_info p:nth-child(2) {
+    font-size: 60px;
+    color: #fff;
+    line-height: 1.2;
+    font-weight: 800;
+}
+
+.hero .hero_banner .hero_content_left .hero_banner_info p:nth-child(2) .name {
+    color: var(--yellow);
+}
+
+.hero .hero_banner .hero_content_left .hero_banner_info p:nth-child(3) {
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.hero .hero_banner .hero_content_left .hero_banner_info h1 {
+    color: rgb(255, 255, 255);
+    font-family: Kanit, sans-serif;
+    font-size: 8vw;
+    font-weight: 700;
+    line-height: 0.8;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+.hero .hero_banner .hero_content_right {
     align-items: flex-end;
     display: flex;
     width: 40%;
 }
 
-.content_right img {
+.hero .hero_banner .hero_content_right img {
     width: 100%;
+    object-fit: contain;
 }
 
-.iconBackground {}
+
+
+
+
+
+.hero_content_right img {
+    width: 100%;
+}
 
 .social_icon {
     position: absolute;
@@ -54,13 +122,4 @@ button a {
     align-items: center;
     font-size: 20px;
 
-}
-
-
-
-.circular_clip {
-    clip-path: circle(50% at 88% 77%);
-    background-color: var(--yellow);
-    height: 200px;
-    width: 200px;
 }

@@ -32,10 +32,10 @@ export default function ContactMe() {
                     <div className='contact_info'>
                         <div className='contact_info_wrapper'>
                             <div className='contact_icon'>
-                                <i class="bi bi-telephone-fill"></i><span>+91-8384095798</span>
+                                <i className="bi bi-telephone-fill"></i><span>+91-8384095798</span>
                             </div>
                             <div className='contact_icon'>
-                                <i class="bi bi-envelope"></i><span>sushmay097@gmail.com</span>
+                                <i className="bi bi-envelope"></i><span>sushmay097@gmail.com</span>
                             </div>
                             <div className='contact_info_icon'>
                                 <Icons />

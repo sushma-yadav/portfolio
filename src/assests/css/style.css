@@ -34,3 +34,31 @@ body {
     font-weight: 300;
     text-align: end;
 }
+
+/*-------------------------Navbar------------------------*/
+.navbar {
+    background-color: var(--yellow);
+    box-shadow: rgba(0, 0, 0, 0.176) 2px 2px 5px;
+    color: var(--black);
+    position: fixed;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    z-index: 999;
+    border-radius: 0px 20px 20px 0px;
+    width: max-content;
+}
+
+.navbar ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar ul li {
+    padding: 10px 20px 10px 20px;
+}
+
+.navbar ul li a i {
+    color: var(--black);
+    font-size: 24px;
+}
