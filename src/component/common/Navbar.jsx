@@ -4,28 +4,28 @@ const Navbar = () => {
             <div className="navbar">
                 <ul>
                     <li>
-                        <a href="">
+                        <a href="#">
                             <i className="bi bi-house-fill"></i>
                         </a>
                     </li>
                     <li>
-                        <a href="">
+                        <a href="#">
                             <i className="bi bi-person-fill"></i>
                         </a>
                     </li>
                     <li>
-                        <a href="">
+                        <a href="#">
                             <i className="bi bi-stack"></i>
                         </a>
                     </li>
                     <li>
-                        <a href="">
+                        <a href="#">
                             <i className="bi bi-chat-left-text-fill"></i>
                         </a>
                     </li>
                     <li>
-                        <a href="">
-                            <i class="fa fa-download" aria-hidden="true"></i>
+                        <a href="#">
+                            <i className="fa fa-download" aria-hidden="true"></i>
                         </a>
                     </li>
                 </ul>
