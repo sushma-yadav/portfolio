@@ -107,3 +107,71 @@
     background-color: #000000;
     color: #FFFFFF;
 }
+
+/*------------------------Media Query-----------------------------*/
+
+@media (max-width: 426px) {
+    .project_section_heading h1 {
+        font-family: Roboto;
+        font-size: 50px;
+        font-weight: 300;
+        line-height: 100px;
+        letter-spacing: 0.1em;
+        text-align: left;
+        color: var(--white);
+        padding-left: 5rem;
+    }
+
+    .project_section_content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .project_section {
+        background-color: var(--gray);
+        min-height: 100vh;
+        padding-bottom: 5rem;
+        padding-right: 0;
+    }
+
+    .all_projects_section {
+        max-width: 1300px;
+        background-color: #FFFFFF;
+        padding: 2rem 2rem 2rem 5rem;
+        color: #000000;
+    }
+
+    .project_section_header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 2rem;
+    }
+
+    .project_section_header p {
+        font-size: 1rem;
+        font-weight: 600;
+    }
+
+    .project_section_header button {
+        color: #FFFFFF;
+        background-color: #000000;
+        padding: 3px 5px;
+        font-size: 10px;
+    }
+
+    .project_name .project_title {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 44px;
+        letter-spacing: 0.1em;
+        text-decoration-line: underline;
+        color: #000000;
+    }
+
+    .project_name .project_description {
+        font-size: 11px;
+    }
+}

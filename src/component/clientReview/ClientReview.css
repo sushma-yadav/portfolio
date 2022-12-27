@@ -64,3 +64,40 @@
     font-size: 14px;
     font-weight: 600;
 }
+
+/*-----------------------Media Query----------------------------*/
+
+@media (max-width: 426px) {
+
+    .clientReview .Heading {
+        font-family: 'Roboto';
+        line-height: 35px;
+        letter-spacing: 0.2em;
+        color: #000000;
+        padding-left: 5rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        font-size: 1rem;
+        font-weight: 600;
+        text-align: start;
+    }
+
+    .client_review_grid {
+        display: flex;
+        flex-direction: column;
+        padding-left: 5rem;
+        padding-bottom: 20px;
+    }
+
+    .review_container {
+        width: 265px;
+        padding: 20px;
+        background-color: var(--black);
+        color: var(--white);
+    }
+
+    .review_container p {
+        font-size: 10px;
+        font-weight: 300;
+    }
+}
