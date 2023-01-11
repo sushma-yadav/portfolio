@@ -6,6 +6,7 @@ import Navbar from './component/common/Navbar';
 import ContactMe from './component/contact/ContactMe';
 import HeroBanner from './component/heroBanner/HeroBanner';
 import Projects from './component/projects/Projects';
+import Skills from './component/skills/Skills';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Navbar />
       <HeroBanner />
       <AboutMe />
+      <Skills />
       <Projects />
       <ClientReview />
       <ContactMe />

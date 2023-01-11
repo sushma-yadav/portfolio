@@ -142,6 +142,7 @@ button a {
     }
 
     .hero .hero_banner .hero_content_left {
+        justify-content: center;
         align-items: center;
         display: flex;
         height: 100%;
@@ -175,6 +176,16 @@ button a {
         position: absolute;
         top: 20px;
         left: 40px;
+    }
+
+    .hero .hero_banner .hero_content_left .btns button {
+        padding: 8px 16px;
+        background-color: var(--gray);
+        color: var(--yellow);
+        font-weight: 600;
+        font-size: 12px;
+        font-family: 'Poppins';
+        border: 1px solid var(--yellow);
     }
 
 
