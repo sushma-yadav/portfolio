@@ -19,7 +19,6 @@
     letter-spacing: 0.2em;
     text-align: left;
     color: #FFFFFF;
-    padding-left: 10rem;
     margin-bottom: 30px;
 }
 
@@ -73,7 +72,6 @@
         letter-spacing: 0.1em;
         text-align: left;
         color: var(--white);
-        padding-left: 0;
     }
 
     .skill_section .skill_container {
