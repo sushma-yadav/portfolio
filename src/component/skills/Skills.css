@@ -5,6 +5,12 @@
     padding-left: 10rem;
 }
 
+.skill_section .skill_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+
 .skill_section_heading h1 {
     font-family: 'Roboto';
     font-size: 109px;
@@ -21,11 +27,70 @@
     width: 300px;
     height: 300px;
     background-color: var(--gray);
-    box-shadow: 0px 20px 69px -27px rgb(0 0 0 / 17%)
+    box-shadow: 0px 20px 69px -27px rgb(0 0 0 / 17%);
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .skill_name {
     padding: 2rem;
     text-align: center;
     color: var(--white);
+}
+
+.skill_name .skill_icon {
+    font-size: 5rem;
+    transition: all 0.3s linear;
+}
+
+.skill_name p {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.skill_box:hover .skill_icon {
+    cursor: pointer;
+    transform: scale(1.5);
+}
+
+
+/*------------------------Media Query--------------------------*/
+@media (max-width: 426px) {
+    .skill_section {
+        min-height: 100vh;
+        color: var(--black);
+        background-color: var(--black);
+        padding-left: 5rem;
+    }
+
+    .skill_section_heading h1 {
+        font-family: Roboto;
+        font-size: 50px;
+        font-weight: 300;
+        line-height: 100px;
+        letter-spacing: 0.1em;
+        text-align: left;
+        color: var(--white);
+        padding-left: 0;
+    }
+
+    .skill_section .skill_container {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+        padding-left: 1rem;
+    }
+
+    .skill_box {
+        width: 270px;
+        height: 270px;
+        background-color: var(--gray);
+        box-shadow: 0px 20px 69px -27px rgb(0 0 0 / 17%);
+        margin-bottom: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
