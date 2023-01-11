@@ -18,7 +18,7 @@ export default function HeroBanner() {
                                 <p>I'm <span className='name'>Sushma Yadav</span></p>
                                 <p>Frontend React JS Developer</p>
                                 <div className='btns'>
-                                    <button><i class="fa fa-download" aria-hidden="true"></i> Download Resume</button>
+                                    <button><i className="fa fa-download" aria-hidden="true"></i> Download Resume</button>
                                     <button>Hire Me</button>
                                 </div>
                             </div>
