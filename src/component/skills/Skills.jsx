@@ -1,4 +1,3 @@
-import './Skill'
 import { FaReact } from 'react-icons/fa'
 import { TbBrandJavascript } from 'react-icons/tb'
 import { AiFillHtml5 } from 'react-icons/ai'
@@ -19,7 +18,7 @@ const Skills = () => {
 
     return (
         <>
-            <div className='skill_section'>
+            <div className='skill_section' id='skills'>
                 <div className='skill_section_heading'>
                     <h1 className='Heading'>Skills.</h1>
                 </div>

@@ -5,7 +5,7 @@ import './ContactMe.css'
 export default function ContactMe() {
     return (
         <>
-            <div className='contact_section'>
+            <div className='contact_section' id='contact'>
                 <div className='contact_section_heading'>
                     <h1>Contact Me.</h1>
                 </div>

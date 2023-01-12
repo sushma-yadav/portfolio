@@ -62,3 +62,7 @@ body {
     color: var(--black);
     font-size: 24px;
 }
+
+.navbar ul li a[title] {
+    color: red;
+}

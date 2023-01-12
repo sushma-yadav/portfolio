@@ -6,7 +6,7 @@ import heroImage from '../../assests/image/sushma_bitmoji.png'
 export default function HeroBanner() {
     return (
         <>
-            <section className='home'>
+            <section className='home' id='home'>
                 <div className='hero'>
                     <div className='hero_banner'>
                         <div className='hero_content_left'>
