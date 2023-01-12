@@ -9,7 +9,7 @@ const Project = (props) => {
             {
                 !projectDetail ?
                     <div className='project_image'>
-                        <img src={project_img1} alt="" />
+                        <img src={props.item.image} alt="" />
                     </div>
                     :
                     <div className='project_name'>

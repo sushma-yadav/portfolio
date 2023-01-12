@@ -10,32 +10,19 @@ export default function Projects() {
             name: 'TMDB Clone',
             description: "A TMDB clone built using React JS, BootStap, CSS, and HTML and free API integration.",
             url: 'https://tmdb-clone-su.netlify.app/',
-            image: "https://i.pinimg.com/originals/10/8f/fd/108ffd534d2076aa59babdb3b925438d.png"
+            image: "https://i.postimg.cc/ryrnQxXN/tmdb.png",
         },
         {
             name: 'Myntra Clone',
             description: 'A Myntra clone built using React Js, HTML and CSS.',
-            url: 'https://my-myntra-clone.netlify.app/'
+            url: 'https://my-myntra-clone.netlify.app/',
+            image: "https://i.postimg.cc/dtmj79rD/myntra.png",
         },
         {
             name: 'Todo App',
             description: 'A todo app , implement all the CRED operations in ReactJs using react component and store the data in the local storage.',
-            url: 'https://tmdb-clone-su.netlify.app/'
-        },
-        {
-            name: 'Todo App',
-            description: 'A todo app , implement all the CRED operations in ReactJs using react component and store the data in the local storage.',
-            url: 'https://tmdb-clone-su.netlify.app/'
-        },
-        {
-            name: 'Todo App',
-            description: 'A todo app , implement all the CRED operations in ReactJs using react component and store the data in the local storage.',
-            url: 'https://tmdb-clone-su.netlify.app/'
-        },
-        {
-            name: 'Todo App',
-            description: 'A todo app , implement all the CRED operations in ReactJs using react component and store the data in the local storage.',
-            url: 'https://tmdb-clone-su.netlify.app/'
+            url: 'https://i.postimg.cc/gjdw5sP1/404-page-cover.jpg',
+            image: "https://i.postimg.cc/Kz3PD1vH/todo.png",
         },
     ]
 
@@ -48,7 +35,7 @@ export default function Projects() {
             <div className="all_projects_section">
                 <div className='project_section_header'>
                     <p>Some Featured Projects</p>
-                    <button>View All</button>
+                    <button style={{ display: 'none' }}>View All</button>
                 </div>
                 <div className="project_section_content">
                     {
