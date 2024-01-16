@@ -1,104 +1,90 @@
 .skill_section {
-    min-height: 100vh;
-    color: var(--black);
-    background-color: var(--black);
-    padding-left: 10rem;
+  min-height: 100vh;
+  color: var(--black);
+  background-color: var(--black);
+  padding-left: 10rem;
 }
 
 .skill_section .skill_container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
 .skill_section_heading h1 {
-    font-family: 'Roboto';
-    font-size: 109px;
-    font-weight: 300;
-    line-height: 133px;
-    letter-spacing: 0.2em;
-    text-align: left;
-    color: #FFFFFF;
-    margin-bottom: 30px;
+  font-family: "Roboto";
+  font-size: 109px;
+  font-weight: 300;
+  line-height: 133px;
+  letter-spacing: 0.2em;
+  text-align: left;
+  color: #ffffff;
+  margin-bottom: 30px;
 }
 
 .skill_box {
-    width: 300px;
-    height: 300px;
-    background-color: var(--gray);
-    box-shadow: 0px 20px 69px -27px rgb(0 0 0 / 17%);
-    margin-bottom: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  width: 300px;
+  height: 300px;
+  background-color: var(--gray);
+  box-shadow: 0px 20px 69px -27px rgb(0 0 0 / 17%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
 }
 
 .skill_name {
-    padding: 2rem;
-    text-align: center;
-    color: var(--white);
+  padding: 1rem;
+  text-align: center;
+  color: var(--white);
 }
 
 .skill_name .skill_icon {
-    font-size: 5rem;
-    transition: all 0.3s linear;
+  font-size: 5rem;
+  transition: all 0.3s linear;
 }
 
 .skill_name p {
-    font-size: 20px;
-    font-weight: 500;
+  font-size: 20px;
+  font-weight: 500;
 }
 
 .skill_box:hover .skill_icon {
-    cursor: pointer;
-    transform: scale(1.5);
+  cursor: pointer;
+  transform: scale(1.5);
 }
 
-
 /*------------------------Media Query--------------------------*/
+@media (max-width: 768px) {
+  .skill_section {
+    padding-left: 5rem;
+    padding-bottom: 5rem;
+  }
+  .skill_section_heading h1 {
+    font-size: 50px;
+  }
+  .skill_box {
+    width: 150px;
+    height: 150px;
+  }
+  .skill_name p {
+    font-size: 14px;
+  }
+  .skill_name .skill_icon {
+    font-size: 2rem;
+  }
+}
 @media (max-width: 426px) {
-    .skill_section {
-        min-height: 100vh;
-        color: var(--black);
-        background-color: var(--black);
-        padding-left: 5rem;
-        padding-bottom: 5rem;
-    }
-
-    .skill_section_heading h1 {
-        font-family: Roboto;
-        font-size: 50px;
-        font-weight: 300;
-        line-height: 100px;
-        letter-spacing: 0.1em;
-        text-align: left;
-        color: var(--white);
-    }
-
-    .skill_section .skill_container {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 20px;
-    }
-
-    .skill_box {
-        width: 150px;
-        height: 150px;
-        background-color: var(--gray);
-        box-shadow: 0px 20px 69px -27px rgb(0 0 0 / 17%);
-        margin-bottom: 0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .skill_name .skill_icon {
-        font-size: 2rem;
-        transition: all 0.3s linear;
-    }
-
-    .skill_name p {
-        font-size: 12px;
-        font-weight: 500;
-    }
+}
+@media (max-width: 375px) {
+  .skill_box {
+    width: 100px;
+    height: 100px;
+  }
+  .skill_name p {
+    font-size: 10px;
+  }
+  .skill_name .skill_icon {
+    font-size: 2rem;
+  }
 }

@@ -1,68 +1,68 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 :root {
-    --yellow: #FAFF00;
-    --white: #FFFFFF;
-    --gray: #242424;
-    --black: #131313;
+  --yellow: #faff00;
+  --white: #ffffff;
+  --gray: #242424;
+  --black: #131313;
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 /*-----------Footer---------------*/
 .Footer {
-    background-color: var(--black);
-    color: var(--yellow);
-    font-family: 'Roboto', sans-serif;
-    padding: 10px;
+  background-color: var(--black);
+  color: var(--yellow);
+  font-family: "Roboto", sans-serif;
+  padding: 10px;
 }
 
 .Footer h4 {
-    font-weight: 500;
-    font-size: 20px;
-    text-align: center;
+  font-weight: 500;
+  font-size: 20px;
+  text-align: center;
 }
 
 .Footer p {
-    font-size: 10px;
-    font-weight: 300;
-    text-align: end;
+  font-size: 10px;
+  font-weight: 300;
+  text-align: end;
 }
 
 /*-------------------------Navbar------------------------*/
 .navbar {
-    background-color: var(--yellow);
-    box-shadow: rgba(0, 0, 0, 0.176) 2px 2px 5px;
-    color: var(--black);
-    position: fixed;
-    top: 50%;
-    left: 0;
-    transform: translateY(-50%);
-    z-index: 999;
-    border-radius: 0px 20px 20px 0px;
-    width: max-content;
+  background-color: var(--yellow);
+  box-shadow: rgba(0, 0, 0, 0.176) 2px 2px 5px;
+  color: var(--black);
+  position: fixed;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  z-index: 999;
+  border-radius: 0px 20px 20px 0px;
+  width: max-content;
 }
 
 .navbar ul {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .navbar ul li {
-    padding: 10px 20px 10px 20px;
+  padding: 10px 20px 10px 20px;
 }
 
 .navbar ul li a i {
-    color: var(--black);
-    font-size: 24px;
+  color: var(--black);
+  font-size: 24px;
 }
 
 .navbar ul li a[title] {
-    color: red;
+  color: red;
 }

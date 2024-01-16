@@ -1,175 +1,131 @@
 .project_section {
-    background-color: var(--gray);
-    min-height: 100vh;
-    padding-bottom: 5rem;
-    padding-right: 5rem;
-    /* padding-top: 5rem; */
-    position: relative;
+  background-color: var(--gray);
+  min-height: 100vh;
+  padding-bottom: 5rem;
+  position: relative;
 }
 
 .project_section_heading h1 {
-    font-family: 'Roboto';
-    font-size: 109px;
-    font-weight: 300;
-    line-height: 133px;
-    letter-spacing: 0.2em;
-    text-align: left;
-    color: #FFFFFF;
-    padding-left: 10rem;
-    margin-bottom: 30px;
+  font-family: "Roboto";
+  font-size: 109px;
+  font-weight: 300;
+  line-height: 133px;
+  letter-spacing: 0.2em;
+  text-align: left;
+  color: #ffffff;
+  margin-bottom: 30px;
+  padding-left: 10rem;
 }
 
 .all_projects_section {
-    max-width: 1300px;
-    background-color: #FFFFFF;
-    padding: 2rem 2rem 2rem 10rem;
-    color: #000000;
+  max-width: 90%;
+  background-color: #ffffff;
+  padding: 2rem 2rem 2rem 10rem;
+  color: #000000;
 }
 
 .project_section_header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 4rem;
 }
 
 .project_section_header p {
-    font-size: 1.2rem;
-    font-weight: 600;
+  font-size: 2rem;
+  font-weight: 600;
 }
 
 .project_section_header button {
-    color: #FFFFFF;
-    background-color: #000000;
-    padding: 10px 20px;
+  color: #ffffff;
+  background-color: #000000;
+  padding: 10px 20px;
 }
 
 .project_section_content {
-    grid-gap: 20px;
-    display: grid;
-    gap: 20px;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    width: 100%;
-    cursor: pointer;
+  grid-gap: 20px;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(2, 1fr);
+  width: 100%;
+  cursor: pointer;
 }
 
 .project {
-    aspect-ratio: 1/1;
-    overflow: hidden;
+  aspect-ratio: 1/1;
+  overflow: hidden;
 }
 
 .project_image {
-    height: 100%;
-    width: 100%;
+  height: 100%;
+  width: 100%;
 }
 
 .project_image img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 
 .project {
-    position: relative;
+  position: relative;
 }
 
 .project:hover {
-    background-image: linear-gradient(180deg, gray, yellow);
-    transition: 0.1s ease-in;
-    padding: 30px;
+  background-image: linear-gradient(
+    180deg,
+    rgb(233, 226, 226),
+    rgb(228, 228, 161)
+  );
+  transition: 0.2s ease-in;
+  padding: 30px;
 }
 
 .project_name .project_title {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 133px;
-    letter-spacing: 0.2em;
-    text-decoration-line: underline;
-    color: #000000;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 133px;
+  letter-spacing: 0.1em;
+  text-decoration-line: underline;
+  color: #000000;
 }
 
 .project_name .project_description {
-    font-size: 16px;
+  font-size: 16px;
+  font-weight: 500;
 }
 
 .project_name button {
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    padding: 10px 20px;
-    background-color: #000000;
-    color: #FFFFFF;
-    cursor: pointer;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px 20px;
+  background-color: #000000;
+  color: #ffffff;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "Roboto";
+  font-style: normal;
 }
 
 /*------------------------Media Query-----------------------------*/
-
-@media (max-width: 426px) {
-    .project_section_heading h1 {
-        font-family: Roboto;
-        font-size: 50px;
-        font-weight: 300;
-        line-height: 100px;
-        letter-spacing: 0.1em;
-        text-align: left;
-        color: var(--white);
-        padding-left: 5rem;
-    }
-
-    .project_section_content {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .project_section {
-        background-color: var(--gray);
-        min-height: 100vh;
-        padding-bottom: 5rem;
-        padding-right: 0;
-    }
-
-    .all_projects_section {
-        max-width: 1300px;
-        background-color: #FFFFFF;
-        padding: 2rem 2rem 2rem 5rem;
-        color: #000000;
-    }
-
-    .project_section_header {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        margin-bottom: 2rem;
-    }
-
-    .project_section_header p {
-        font-size: 1rem;
-        font-weight: 600;
-    }
-
-    .project_section_header button {
-        color: #FFFFFF;
-        background-color: #000000;
-        padding: 3px 5px;
-        font-size: 10px;
-    }
-
-    .project_name .project_title {
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 600;
-        font-size: 22px;
-        line-height: 44px;
-        letter-spacing: 0.1em;
-        text-decoration-line: underline;
-        color: #000000;
-    }
-
-    .project_name .project_description {
-        font-size: 11px;
-    }
+@media (max-width: 768px) {
+  .project_section_heading h1 {
+    font-size: 50px;
+    line-height: 100px;
+    letter-spacing: 0.1em;
+    padding-left: 5rem;
+  }
+  .all_projects_section {
+    padding: 2rem 2rem 2rem 5rem;
+  }
+}
+@media (max-width: 425px) {
+  .project_section_content {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
