@@ -1,4 +1,3 @@
-import "./App.css";
 import AboutMe from "./component/about/AboutMe";
 import ClientReview from "./component/clientReview/ClientReview";
 import Footer from "./component/common/Footer";
@@ -16,7 +15,7 @@ function App() {
       <AboutMe />
       <Skills />
       <Projects />
-      <ClientReview />
+      {/* <ClientReview /> */}
       <ContactMe />
       <Footer />
     </div>

@@ -5,14 +5,14 @@ import { AiFillHtml5 } from "react-icons/ai";
 import { FaCss3Alt } from "react-icons/fa";
 import { DiBootstrap } from "react-icons/di";
 import { BsGithub } from "react-icons/bs";
-import { SiTailwindcss } from "react-icons/si";
+import { SiTailwindcss, SiTypescript } from "react-icons/si";
 import "./Skills.css";
 const Skills = () => {
   const skillList = [
     { name: "React JS", icon: <FaReact />, color: "#61DBFB" },
     { name: "Next JS", icon: <TbBrandNextjs />, color: "#ffffff" },
     { name: "JavaScript", icon: <TbBrandJavascript />, color: "#f0db4f" },
-    // { name: "TypeScript", icon: <TbBrandTypescript />, color: "#cccccc" },
+    { name: "TypeScript", icon: <SiTypescript />, color: "#2f74c0" },
     { name: "HTML", icon: <AiFillHtml5 />, color: "#e34c26" },
     { name: "CSS", icon: <FaCss3Alt />, color: "#264de4" },
     { name: "Bootstrap", icon: <DiBootstrap />, color: "#563d7c" },

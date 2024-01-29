@@ -1,17 +1,56 @@
-import React from 'react'
-import './AboutMe.css'
+import React from "react";
+import "./AboutMe.css";
 
 export default function AboutMe() {
-    return (
-        <div className='about' id='about'>
-            <div className='about_section'>
-                <h1>About Me.</h1>
-                <div className='about_section_content'>
-                    <p>
-                        Hii! I am <span style={{ fontWeight: 'bold' }}>Sushma Yadav</span>. Welcome to my page first of all. I would love to share my journey and how things are going right now.I currently live in India, a very beautiful country. I have done graduation (B.Tech) from Inderprastha Engineering College which is affiliated by Abdul Kalam Technical University(AKTU). In Web development for example, I master a wide range of technologies , from HTML , CSS , JavaScript here and there as well as libraries such as bootstrap , material UI and much more but mostly React Js with all its power. I'm a proficient front-end developer. In the past, I tried many work methodologies (always in the pursuit of efficiency) but occasionally got caught up in perfectionism, procrastination and over-planning. Currently, and being a passionate standardista, the work gets done in the best and most efficient way possible, always targeting high quality standards. My relationship with technology and software development has undergone numerous transformations. As an individual, I'm always looking for new challenges and researching for new advanced techniques is a constant. I'm achievement-oriented and like to push the boundaries more and more each time, always trying to stay at the fore front of cutting edge technology.
-                    </p>
-                </div>
-            </div>
+  return (
+    <div className="about" id="about">
+      <div className="about_section">
+        <h1>About Me.</h1>
+        <div className="about_section_content">
+          <p>
+            {" "}
+            Hello there! I'm Sushma Yadav, and I'm thrilled to have you on my
+            page. Let me take you through my journey so far. I'm currently based
+            in the vibrant country of India, and I hold a degree in B.Tech from
+            Inderprastha Engineering College, affiliated with Abdul Kalam
+            Technical University (AKTU).
+          </p>
+          <p>
+            {" "}
+            In the realm of web development, I've honed my skills across a
+            spectrum of technologies, ranging from the basics like HTML, CSS,
+            and JavaScript, to leveraging powerful libraries such as Bootstrap,
+            Material UI, and more. My forte, however, lies in mastering the
+            intricacies of React.js, harnessing its full potential. As a
+            proficient front-end developer, I bring a wealth of experience to
+            the table.
+          </p>
+          <p>
+            {" "}
+            Throughout my career, I've experimented with various work
+            methodologies, always in pursuit of efficiency. While I've grappled
+            with perfectionism, procrastination, and over-planning in the past,
+            my current approach is rooted in passion for standards. I ensure
+            that tasks are not only completed but are done so in the best and
+            most efficient way, consistently adhering to high-quality standards.
+          </p>
+          <p>
+            {" "}
+            My relationship with technology and software development has evolved
+            significantly over time. I'm an individual who thrives on new
+            challenges, constantly researching advanced techniques to stay ahead
+            in the ever-evolving tech landscape. Driven by an
+            achievement-oriented mindset, I continuously push boundaries, aiming
+            to be at the forefront of cutting-edge technology.
+          </p>
+          <p>
+            {" "}
+            If you're looking for a dedicated and forward-thinking professional
+            who delivers excellence in web development, you've come to the right
+            place. Welcome to my portfolio!
+          </p>
         </div>
-    )
+      </div>
+    </div>
+  );
 }
