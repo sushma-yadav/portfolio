@@ -85,9 +85,9 @@ export default function ContactMe() {
                 <i className="bi bi-envelope"></i>
                 <span>sushmay097@gmail.com</span>
               </div>
-              <div className="contact_info_icon">
+              {/* <div className="contact_info_icon">
                 <Icons />
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

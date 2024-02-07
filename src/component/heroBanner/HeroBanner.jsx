@@ -23,7 +23,7 @@ export default function HeroBanner() {
                   <button>
                     <a
                       target="_blank"
-                      href="https://drive.google.com/file/d/18PlgIa20myxprjknY4iGlyW4hdPVx9i4/view?usp=sharing"
+                      href="https://drive.google.com/file/d/1s0J0ADh_c0tWgQXEW6DuY5ElHsJmzQkX/view?usp=sharing"
                       download="resume.pdf"
                     >
                       <i className="fa fa-download" aria-hidden="true"></i>{" "}

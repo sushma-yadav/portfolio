@@ -45,15 +45,18 @@
 .project_section_content {
   grid-gap: 20px;
   display: grid;
-  gap: 20px;
-  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+  grid-template-columns: repeat(3, 1fr);
   width: 100%;
   cursor: pointer;
 }
 
 .project {
-  aspect-ratio: 1/1;
+  aspect-ratio: 16/9;
   overflow: hidden;
+  border-radius: 8px;
+  position: relative;
+  box-shadow: 0 2px 30px 0 rgba(31, 38, 135, 0.144);
 }
 
 .project_image {
@@ -67,10 +70,6 @@
   object-fit: cover;
 }
 
-.project {
-  position: relative;
-}
-
 .project:hover {
   background-image: linear-gradient(
     180deg,
@@ -82,12 +81,13 @@
 }
 
 .project_name .project_title {
-  font-weight: 700;
-  font-size: 36px;
+  font-weight: 600;
+  font-size: 30px;
   line-height: 133px;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.1px;
   text-decoration-line: underline;
   color: #000000;
+  text-align: center;
 }
 
 .project_name .project_description {
@@ -97,7 +97,7 @@
 
 .project_name button {
   position: absolute;
-  bottom: 0;
+  /* bottom: 0; */
   left: 50%;
   transform: translate(-50%, -50%);
   padding: 10px 20px;

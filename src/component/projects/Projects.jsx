@@ -6,23 +6,30 @@ export default function Projects() {
   const projectDetail = [
     {
       name: "TMDB Clone",
-      description:
-        "A TMDB clone built using React JS, BootStap, CSS, and HTML and free API integration.",
+      // description:
+      //   "A TMDB clone built using React JS, BootStap, CSS, and HTML and free API integration.",
       url: "https://tmdb-clone-su.netlify.app/",
       image: "https://i.postimg.cc/ryrnQxXN/tmdb.png",
     },
     {
       name: "Myntra Clone",
-      description: "A Myntra clone built using React Js, HTML and CSS.",
+      // description: "A Myntra clone built using React Js, HTML and CSS.",
       url: "https://my-myntra-clone.netlify.app/",
       image: "https://i.postimg.cc/dtmj79rD/myntra.png",
     },
     {
       name: "Todo App",
-      description:
-        "A todo app , implement all the CRED operations in ReactJs using react component and store the data in the local storage.",
+      // description:
+      //   "A todo app , implement all the CRED operations in ReactJs using react component and store the data in the local storage.",
       url: "https://sushma-todo-app.netlify.app/",
       image: "https://i.postimg.cc/Kz3PD1vH/todo.png",
+    },
+    {
+      name: "Seach GIF",
+      // description:
+      //   "A todo app , implement all the CRED operations in ReactJs using react component and store the data in the local storage.",
+      url: "https://giphy-search-2024.netlify.app/",
+      image: "https://i.postimg.cc/PJw350rk/giphy.png",
     },
   ];
 
