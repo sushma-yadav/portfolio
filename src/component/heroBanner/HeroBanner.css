@@ -122,6 +122,11 @@ button a {
 }
 
 /*------------------------Media Query-----------------------------*/
+@media (max-width: 768px) {
+  .hero .hero_banner .hero_content_left .btns button a {
+    font-size: 14px;
+  }
+}
 
 @media (max-width: 426px) {
   .home {
